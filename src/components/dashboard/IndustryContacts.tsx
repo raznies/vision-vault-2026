@@ -17,7 +17,7 @@ export function IndustryContacts() {
       <CardContent>
         <div className="space-y-4">
           {contacts.map((contact, i) => (
-            <div key={i} className="flex items-center gap-4">
+            <div key={contact.name} className="flex items-center gap-4">
               <Avatar>
                 <AvatarFallback>{contact.initials}</AvatarFallback>
               </Avatar>
