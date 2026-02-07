@@ -1,2 +1,2 @@
-# Last Dance Progress Tracker
-2026 THE LAST DANCE - High-stakes accountability.
+# Vision Vault 2026
+Strategic execution and accountability dashboard.
