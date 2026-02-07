@@ -15,7 +15,7 @@ export function BooksLog() {
       <CardContent>
         <ul className="space-y-4">
           {books.map((book, i) => (
-            <li key={i} className="flex justify-between items-center border-b pb-2 last:border-0">
+            <li key={book.title} className="flex justify-between items-center border-b pb-2 last:border-0">
               <div>
                 <p className="font-medium">{book.title}</p>
                 <p className="text-sm text-muted-foreground">{book.author}</p>
