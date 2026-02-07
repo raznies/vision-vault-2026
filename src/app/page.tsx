@@ -8,11 +8,11 @@ export default function Home() {
         <h1 className="text-4xl font-bold tracking-tight">Last Dance 2026</h1>
         <p className="text-xl text-muted-foreground">Premium Dashboard Template</p>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Link href="/dashboard">
-            <Button size="lg" className="rounded-full">
+          <Button asChild size="lg" className="rounded-full">
+            <Link href="/dashboard">
               Go to Dashboard
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </div>
       </main>
     </div>
